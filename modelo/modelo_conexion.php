@@ -9,7 +9,7 @@
 		    $this->servidor = "localhost";
 			$this->usuario = "root";
 			$this->contrasena = "";
-			$this->basedatos = "aa";
+			$this->basedatos = "acapdb";
 		}
 		function conectar(){
 			$this->conexion = new mysqli($this->servidor,$this->usuario,$this->contrasena,$this->basedatos);
